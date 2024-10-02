@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,184,233,1) 100%);
+}
+h1{
+    font-size: 60px;
+    padding: 62px;
+
+}
+
+button{ 
+       font-size: 34px;
+    border: none;
+    padding: 24px 57px;
+    color: white;
+    font-weight: bold;
+    background-color: tomato;
+    text-transform: capitalize;
+    border-radius: 6px;
+cursor: pointer;
+}
